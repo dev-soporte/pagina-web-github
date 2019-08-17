@@ -1,25 +1,26 @@
-@import 'https://fonts.googleapis.com/css?family=Lato';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-    font-family: Lato, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    color: #303030;
+    color:cyan;
     margin: 0 auto;
     max-width: 800px;
+    background-color: gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color:magenta;
 }
 
 header, footer {
-    background: #c0c0f0;
+    background:darkslateblue;
     position: relative;
     text-align: center;
     font-size: 1.2em;
 }
 
-header, header:before, header:after { border-bottom: 1px solid #6060c0; }
+header, header:before, header:after { border-bottom: 1px solid darkslateblue; }
 footer, footer:before, footer:after { border-top: 1px solid #6060c0; }
 
 footer {
@@ -32,7 +33,7 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
-    background: #c0c0f0;
+    background:purple;
 }
 
 header:before, footer:before { left: 100%; }
