@@ -14,14 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, footer {
-    background:lightskyblue;
+    background:greenyellow;
     position: relative;
     text-align: center;
     font-size: 1.2em;
 }
 
-header, header:before, header:after { border-bottom: 1px solid dodgerblue; }
-footer, footer:before, footer:after { border-top: 1px solid dodgerblue; }
+header, header:before, header:after { border-bottom: 1px solid darkred; }
+footer, footer:before, footer:after { border-top: 1px solid darkred; }
 
 footer {
     margin-top: 50px;
@@ -33,7 +33,7 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
-    background:lightskyblue;
+    background:greenyellow;
 }
 
 header:before, footer:before { left: 100%; }
@@ -73,7 +73,7 @@ ul#galeria img {
 }
 
 a {
-    color:royalblue;
+    color:green;
     text-decoration: underline;
     font-weight: bold;
 }
