@@ -33,7 +33,7 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
-    background: #c0c0f0;
+    background:purple;
 }
 
 header:before, footer:before { left: 100%; }
