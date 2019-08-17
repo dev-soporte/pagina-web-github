@@ -3,25 +3,25 @@
 body {
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    color:cyan;
+    color: darkblue;
     margin: 0 auto;
     max-width: 800px;
-    background-color: gray;
+    background-color: lightgrey;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color:magenta;
+    color:darkslategray;
 }
 
 header, footer {
-    background:darkslateblue;
+    background:lightskyblue;
     position: relative;
     text-align: center;
     font-size: 1.2em;
 }
 
-header, header:before, header:after { border-bottom: 1px solid darkslateblue; }
-footer, footer:before, footer:after { border-top: 1px solid #6060c0; }
+header, header:before, header:after { border-bottom: 1px solid dodgerblue; }
+footer, footer:before, footer:after { border-top: 1px solid dodgerblue; }
 
 footer {
     margin-top: 50px;
@@ -33,7 +33,7 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
-    background:purple;
+    background:lightskyblue;
 }
 
 header:before, footer:before { left: 100%; }
@@ -73,7 +73,7 @@ ul#galeria img {
 }
 
 a {
-    color: #003399;
+    color:royalblue;
     text-decoration: underline;
     font-weight: bold;
 }
